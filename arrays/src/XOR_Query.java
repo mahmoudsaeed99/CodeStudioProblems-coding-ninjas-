@@ -1,4 +1,6 @@
+import java.awt.font.FontRenderContext;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class XOR_Query {
     public static ArrayList<Integer> xorQuery(ArrayList<ArrayList<Integer>> queries) {
@@ -22,7 +24,5 @@ public class XOR_Query {
         return arr;
     }
     public static void main(String[] args) {
-        ArrayList<ArrayList<Integer>>  a = new ArrayList<>();
-        System.out.println(a.get(0).get(0));
     }
 }
