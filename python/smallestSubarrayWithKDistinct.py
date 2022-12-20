@@ -5,6 +5,16 @@ Created on Sun Dec 18 11:44:32 2022
 @author: Mahmoud Saeed
 """
 
+"""
+problem link :
+
+    
+https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/
+content/118509/offering/1376575
+"""
+
+
+
 def smallestSubarrayWithKDistinct(arr, k: int):
     r = []
     if len(set(arr)) < k:

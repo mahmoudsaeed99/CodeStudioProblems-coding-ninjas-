@@ -1,3 +1,12 @@
+"""
+problem link :
+
+    
+https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/
+content/118509/offering/1376560
+"""
+
+
 import math
 
 

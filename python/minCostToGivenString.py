@@ -4,6 +4,12 @@ Created on Fri Dec 16 10:26:28 2022
 
 @author: Mahmoud Saeed
 """
+"""
+problem link :
+
+https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/
+content/118509/offering/1376571
+"""
 
 # def minCostToGivenString(str1, str2) :
 #     str1 = list(str1)

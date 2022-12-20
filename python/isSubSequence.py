@@ -4,6 +4,13 @@ Created on Sat Dec 17 10:40:42 2022
 
 @author: Mahmoud Saeed
 """
+"""
+problem link :
+
+    
+https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/
+content/118509/offering/1376572
+"""
 
 def isSubSequence(str1, str2):
     j = 0

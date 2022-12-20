@@ -4,6 +4,14 @@ Created on Thu Dec 15 12:16:23 2022
 
 @author: Mahmoud Saeed
 """
+"""
+problem link :
+
+    
+https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/
+content/118509/offering/1376565
+"""
+
 
 def removeConsecutiveDuplicates(s): 
     n = ""
