@@ -10,3 +10,10 @@ https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/
 https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/content/118626
 
 </p>
+
+<h2>Multi_D Array links</h2>
+<p>
+https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/content/118821
+
+</p>
+

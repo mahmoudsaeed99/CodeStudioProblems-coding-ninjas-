@@ -1,3 +1,5 @@
+
+
 public class RemoveConsecutiveDuplicatesFromString {
     public static String removeConsecutive(String str)
     {
