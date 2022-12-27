@@ -4,6 +4,14 @@ Created on Tue Dec 20 19:23:32 2022
 
 @author: Mahmoud Saeed
 """
+"""
+    
+https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/
+content/118509/offering/1376579
+"""
+
+
+
 
 def checkDuplicate(arr, n, k):   
     d = {}
