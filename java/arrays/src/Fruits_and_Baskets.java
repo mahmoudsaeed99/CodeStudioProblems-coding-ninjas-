@@ -29,7 +29,7 @@ public class Fruits_and_Baskets {
     }
 
     public static void main(String[] args) {
-        String s = "AAAA";
+        String s = "AAAAB";
         int r = findMaxFruits(s , s.length());
         System.out.println(r);
     }

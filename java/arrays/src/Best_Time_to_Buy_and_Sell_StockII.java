@@ -26,7 +26,7 @@ public class Best_Time_to_Buy_and_Sell_StockII {
         return max_proit;
     }
     public static void main(String[] args) {
-        long[] val = new long[]{100 ,50 ,30 ,20};
+        long[] val = new long[]{100 ,50 ,30 ,20,100};
         int n = val.length;
         long profit = getMaximumProfit(n , val);
         System.out.println(profit);
