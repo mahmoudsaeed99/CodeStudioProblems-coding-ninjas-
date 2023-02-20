@@ -43,6 +43,7 @@ public class First_and_LastPosition_of_anelement_in_SortedArray {
                 break;
             }
         }
+        System.out.println(first+"   "+last);
 
 
     }

@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 //link problem :
 //        https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/content/118509/offering/1376580
@@ -21,10 +18,10 @@ public class Maximum_of_All_Subarrays_of_Size_K {
 
             Qi.addLast(i);
         }
-
+        System.out.println(Qi);
         for (; i < N; ++i) {
             l.add(arr[Qi.peek()]);
-//             System.out.print(arr[Qi.peek()] + " ");
+             System.out.print(arr[Qi.peek()] + " ");
 
             while ((!Qi.isEmpty()) && Qi.peek() <= i - K)
                 Qi.removeFirst();
@@ -43,6 +40,7 @@ public class Maximum_of_All_Subarrays_of_Size_K {
 
         int arr[] = { 12, 1, 78, 90, 57, 89, 56 };
         int K = 3;
-        maximumInAllSubarraysOfSizeK(arr, arr.length, K);
+        List<Integer> l = maximumInAllSubarraysOfSizeK(arr, arr.length, K);
+        System.out.println(l);
     }
 }

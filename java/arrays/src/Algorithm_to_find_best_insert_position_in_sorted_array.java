@@ -31,8 +31,8 @@ public class Algorithm_to_find_best_insert_position_in_sorted_array {
         return r;
     }
     public static void main(String[] args) {
-        int[] arr = new int[]{};
-        int r = bestInsertPos(arr , arr.length ,1);
+        int[] arr = new int[]{3,5,10};
+        int r = bestInsertPos(arr , arr.length ,6);
         System.out.println(r);
     }
 }

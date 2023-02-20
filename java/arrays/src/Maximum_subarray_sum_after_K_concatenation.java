@@ -9,6 +9,7 @@ public class Maximum_subarray_sum_after_K_concatenation {
             ll.add(arr.get(i%n));
 
         }
+        System.out.println(ll);
         int sum = 0;
         int max = -Integer.MAX_VALUE;
         for (int i = 0 ; i < ll.size() ; i++){
